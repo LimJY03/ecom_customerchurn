@@ -5,9 +5,6 @@ from PIL import Image
 from model import clf
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
-import seaborn as sns
-import plotly.express as px
-import numpy as np
 
 with st.sidebar:
     st.subheader('E-commerce Customer Churn Application :shopping_trolley:')
