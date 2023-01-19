@@ -2,7 +2,7 @@ import streamlit as st
 import time
 import pandas as pd
 from PIL import Image
-from sklearn.preprocessing import LabelEncoder
+from scikit-learn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 
 clf = joblib.load('finalized_model.sav')
