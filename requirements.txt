@@ -1,6 +1,5 @@
 streamlit
 joblib
-time
 pandas
 PTL
 sklearn
