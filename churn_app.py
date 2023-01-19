@@ -2,9 +2,10 @@ import streamlit as st
 import time
 import pandas as pd
 from PIL import Image
-from model.py import clf
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
+
+clf = joblib.load('finalized_model.sav')
 
 with st.sidebar:
     st.subheader('E-commerce Customer Churn Application :shopping_trolley:')
