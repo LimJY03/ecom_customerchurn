@@ -2,7 +2,8 @@ streamlit
 joblib
 pandas
 PIL
-sklearn==1.2.0
+sklearn
+LabelEncoder
 matplotlib
 numpy
 seaborn
