@@ -11,7 +11,6 @@ streamlit = "1.9.2"
 opencv-python-headless = ">=4.5"
 # backports.weakref = "*"
 # opencv-python = "*"
-sklearn = "1.2.0"
 
 [dev-packages]
 black = "*"  # Pretty formatting of Python code
