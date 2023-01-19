@@ -2,7 +2,7 @@ streamlit
 joblib
 pandas
 PIL
-sklearn
+sklearn==1.2.0
 matplotlib
 numpy
 seaborn
