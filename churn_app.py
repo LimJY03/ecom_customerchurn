@@ -2,7 +2,7 @@ import streamlit as st
 import time
 import pandas as pd
 from PIL import Image
-from model import clf
+from model.py import clf
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 
