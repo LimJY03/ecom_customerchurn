@@ -2,7 +2,7 @@ streamlit
 joblib
 pandas
 PIL
-sklearn
+scikit-learn
 LabelEncoder
 matplotlib
 numpy
