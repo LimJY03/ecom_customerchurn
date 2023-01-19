@@ -414,5 +414,5 @@ plt.savefig('Log_ROC')
 plt.show()
 
 import joblib
-joblib.dump(grid.best_estimator_, 'randomforest.pkl', compress = 1)
-clf = joblib.load('randomforest.pkl')
+filename = 'finalized_model.sav'
+joblib.dump(grid.best_estimator_, filename)
