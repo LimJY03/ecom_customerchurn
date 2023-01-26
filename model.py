@@ -7,12 +7,6 @@ import joblib
 
 """# Data Acquisition
 
-**Read Data Dictionary - Understand Dataset Description**
-"""
-
-dictionary = pd.read_csv('ECommerce DataDict.csv', header=1, usecols=[1,2,3])
-dictionary
-
 """**Read Dataset**"""
 ecomdf= pd.read_csv('ECommerceDataset.csv')
 ecomdf.head()
