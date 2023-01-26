@@ -1,4 +1,3 @@
-pip install scikit-learn
 streamlit
 joblib
 pandas
@@ -6,4 +5,4 @@ Pillow
 matplotlib
 numpy
 seaborn
-scikit-learn
+scikit-learn==0.23.2
