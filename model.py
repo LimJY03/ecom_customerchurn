@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import sklearn
+import joblib
 
 """# Data Acquisition
 
@@ -414,6 +415,5 @@ plt.legend(loc="lower right")
 plt.savefig('Log_ROC')
 plt.show()
 
-import joblib
 filename = 'finalized_model.sav'
 joblib.dump(grid.best_estimator_, filename)
