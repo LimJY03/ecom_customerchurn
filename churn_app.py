@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import joblib
 
-filename = 'randomforest.pkl'
+filename = 'best_model.pkl'
 clf = joblib.load(filename)
 
 with st.sidebar:
