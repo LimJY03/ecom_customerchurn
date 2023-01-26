@@ -1,8 +1,7 @@
 streamlit
 joblib
 pandas
-PIL
+Pillow
 matplotlib
 numpy
 seaborn
-scikit-learn==1.0.2
