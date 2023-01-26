@@ -5,9 +5,9 @@ from PIL import Image
 import sklearn
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
-import joblib
+from sklearn.externals import joblib
 
-clf = joblib.load("best_model.pkl")
+clf = joblib.load('best_model.pkl')
 
 with st.sidebar:
     st.subheader('E-commerce Customer Churn Application :shopping_trolley:')
