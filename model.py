@@ -368,7 +368,7 @@ parameters = [
 grid = GridSearchCV(pipe, parameters, cv=5, verbose=True)
 grid.fit(X_train,y_train)
 
-grid.best_estimator_
+gs=grid.best_estimator_
 
 grid.best_score_
 
@@ -415,5 +415,4 @@ plt.legend(loc="lower right")
 plt.savefig('Log_ROC')
 plt.show()
 
-filename = 'finalized_model.sav'
-joblib.dump(grid.best_estimator_, filename)
+joblib.dump(gs, 'best_model.pkl')
