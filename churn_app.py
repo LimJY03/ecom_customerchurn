@@ -267,10 +267,10 @@ if side_menu=='About':
     st.write('Feel Free to Connect Me in LinkedIN:', linkedin)
     st.write('')
     st.subheader('About dataset :bookmark_tabs:')
-    st.write('Data source: [Kaggle] (https://www.kaggle.com/code/ankitverma2010/e-commercecustomerchurn/data)')
+    st.write('Data source: [Kaggle](https://www.kaggle.com/code/ankitverma2010/e-commercecustomerchurn/data)')
 
     st.subheader('Link to Code :open_file_folder:')
-    st.write('This is the link to my source code: [Github]')
+    st.write('This is the link to my source code: [Github](https://github.com/Jiehui0827/ecom_customerchurn)')
     st.write('')
     st.write('')
 
