@@ -6,9 +6,10 @@ import sklearn
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import model.py
-import joblib
+import pickle
 
-clf = joblib.load('best_model.pkl')
+filename = 'randomforest.pkl'
+clf = pickle.load(open(filename, 'rb'))
 
 with st.sidebar:
     st.subheader('E-commerce Customer Churn Application :shopping_trolley:')
