@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import joblib
 
-joblib.load('best_model.pkl')
+clf = joblib.load('best_model.pkl')
 
 with st.sidebar:
     st.subheader('E-commerce Customer Churn Application :shopping_trolley:')
