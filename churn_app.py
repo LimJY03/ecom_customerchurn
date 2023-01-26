@@ -5,10 +5,10 @@ from PIL import Image
 import sklearn
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
-import pickle
+import joblib
 
 filename = 'randomforest.pkl'
-clf = pickle.load(open(filename, 'rb'))
+clf = joblib.load(filename)
 
 with st.sidebar:
     st.subheader('E-commerce Customer Churn Application :shopping_trolley:')
