@@ -5,6 +5,7 @@ from PIL import Image
 import sklearn
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
+import model.py
 import joblib
 
 clf = joblib.load('best_model.pkl')
